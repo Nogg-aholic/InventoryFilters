@@ -13,6 +13,7 @@
 void UInventoryFiltersSubsystem::Init(const TArray<TSubclassOf<UFGItemDescriptor>> AllItemsIn)
 {
 	AllItems = AllItemsIn;
+	AllSlotItems.Empty();
 	for(const TSubclassOf<class UFGItemDescriptor> i : AllItems)
 		if(i.GetDefaultObject()->mForm == EResourceForm::RF_SOLID
 			&& !i->IsChildOf(UFGBuildDescriptor::StaticClass())
@@ -23,14 +24,17 @@ void UInventoryFiltersSubsystem::Init(const TArray<TSubclassOf<UFGItemDescriptor
 			AllSlotItems.Add(i);
 }
 
-TArray<TSubclassOf<UFGItemDescriptor>> UInventoryFiltersSubsystem::GetAllItemsFiltered(const FString FilterString)
+TArray<TSubclassOf<UFGItemDescriptor>> UInventoryFiltersSubsystem::GetAllItemsFiltered(const FString FilterString, const int32 ResutLimit)
 {	
 	if (FilterString == "")
 		return AllSlotItems;
 
 	TArray<TSubclassOf<class UFGItemDescriptor>> ArrOut;
 	for(auto i : AllSlotItems)
-		if(i.GetDefaultObject()->GetItemName(i).ToString().Contains(*FilterString))
-			ArrOut.Add(i);		
+		if(i.GetDefaultObject()->GetItemName(i).ToString().Contains(*FilterString) && ArrOut.Num() < ResutLimit)
+			ArrOut.Add(i);
+		else if(ArrOut.Num() >= ResutLimit)
+			break;
+
 	return ArrOut;
 }
