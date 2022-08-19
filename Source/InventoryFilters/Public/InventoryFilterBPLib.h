@@ -19,7 +19,7 @@ class INVENTORYFILTERS_API UInventoryFilterBPLib : public UBlueprintFunctionLibr
 	GENERATED_BODY()
 
 public:
-		UFUNCTION(BlueprinTCallable)
+		UFUNCTION(BlueprintCallable, meta = (DisplayName = "InventoryFilters Bind on Widget Construct"))
 		static void BindOnWidgetConstruct(const TSubclassOf<UUserWidget> WidgetClass, FOnWidgetConstructed Binding);
 	
 	static FOnWidgetConstructed OnWidgetConstruct;

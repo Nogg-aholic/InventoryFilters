@@ -1,15 +1,16 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "InventoryFilters",
-	"Description": "Allows setting Filters on Inventory Slots",
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
+	"FriendlyName": "Inventory Filters",
+	"Description": "Set filters on any inventory slot - your player, buildings, vehicles, and more!",
 	"Category": "Modding",
-	"CreatedBy": "Drejn, Nog",
-	"CreatedByURL": "",
+	"CreatedBy": "Drejn, Nog, Robb",
+	"CreatedByURL": "https://ficsit.app/mod/InventoryFilters",
 	"DocsURL": "https://github.com/Nogg-aholic/InventoryFilters",
 	"MarketplaceURL": "",
-	"SupportURL": "",
+	"SupportURL": "http://discord.gg/zqp6U7Y7Nu",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -25,7 +26,7 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.0.0"
+			"SemVersion": "^3.3.2"
 		}
 	]
 }
