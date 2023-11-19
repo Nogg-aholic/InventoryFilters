@@ -7,7 +7,7 @@
 #include "InventoryFilterBPLib.generated.h"
 
 
-DECLARE_DYNAMIC_DELEGATE_OneParam(FOnWidgetConstructed, UUserWidget*, Widget);
+//DECLARE_DYNAMIC_DELEGATE_OneParam(FOnWidgetConstructed, UUserWidget*, Widget);
 
 
 /**
@@ -18,10 +18,10 @@ class INVENTORYFILTERS_API UInventoryFilterBPLib : public UBlueprintFunctionLibr
 {
 	GENERATED_BODY()
 
-public:
-		UFUNCTION(BlueprintCallable, meta = (DisplayName = "InventoryFilters Bind on Widget Construct"))
-		static void BindOnWidgetConstruct(const TSubclassOf<UUserWidget> WidgetClass, FOnWidgetConstructed Binding);
-	
-	static FOnWidgetConstructed OnWidgetConstruct;
+//public:
+//		UFUNCTION(BlueprintCallable, meta = (DeprecatedFunction, DisplayName = "InventoryFilters Bind on Widget Construct"))
+//		static void BindOnWidgetConstruct(const TSubclassOf<UUserWidget> WidgetClass, FOnWidgetConstructed Binding);
+//	
+//	static FOnWidgetConstructed OnWidgetConstruct;
 
 };

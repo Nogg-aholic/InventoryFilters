@@ -15,7 +15,7 @@ void UInventoryFiltersSubsystem::Init(const TArray<TSubclassOf<UFGItemDescriptor
 	AllItems = AllItemsIn;
 	AllSlotItems.Empty();
 	for(const TSubclassOf<class UFGItemDescriptor> i : AllItems)
-		if(i.GetDefaultObject()->mForm == EResourceForm::RF_SOLID
+		if(UFGItemDescriptor::GetForm(i) == EResourceForm::RF_SOLID
 			&& !i->IsChildOf(UFGBuildDescriptor::StaticClass())
 			&& !i->IsChildOf(UFGFactoryCustomizationDescriptor::StaticClass())
 			&& !i.GetDefaultObject()->GetItemName(i).IsEmpty()
