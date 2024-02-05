@@ -1,13 +1,15 @@
 # Inventory Filters
 
-This mod allows you to set filters on any Inventory Slot
-by clicking with the Right-Mouse Button on an empty Inventory-Slot.
-A Popup will appear with which you can configure an item to set as that slot's filter.
+_Multiplayer compatible!_
+
+This mod allows you to set filters on any inventory slot
+by clicking with the Right-Mouse Button on an empty slot.
+A popup will appear with which you can configure an item to set as that slot's filter.
 
 You can keep applying the same filter to multiple slots
 by right clicking them, or right click dragging, while the popup is open.
 
-This works on any inventory slot -
+This works on basically all regular inventory slots -
 personal storage boxes, your player inventory, vehicles, etc.
 
 This mod uses the base game's slot filter mechanic,
@@ -18,7 +20,8 @@ This mod was started with [Drejn](https://ficsit.app/user/9i28T65xuTXzSs), who w
 
 **Report Bugs here** -> [Nog's Mods Discord](https://discord.gg/nakafUdRfj)
 
-_This mod is currently being maintained by Robb#6731. Contact him if you want up to date source code._
+_This mod is currently being maintained by Robb#6731._
+_If you enjoy my work, please consider my [completely optional tip jar](https://ko-fi.com/robb4)._
 
 ## Uses
 
@@ -33,6 +36,11 @@ _This mod is currently being maintained by Robb#6731. Contact him if you want up
 </video>
 
 ![Tooltip](https://i.imgur.com/Tls6hrZ.png)
+
+## Known Bugs
+
+- The sorting safety system can sometimes change the position of the sort button in an machine's interface
+- Multiplayer clients must modify at least one filter in an inventory after joining a session before they can "see" the rest of that inventory's filters
 
 ## Regarding Sorting
 

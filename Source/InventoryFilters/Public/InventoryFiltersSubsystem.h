@@ -17,24 +17,24 @@ class INVENTORYFILTERS_API UInventoryFiltersSubsystem : public UWorldSubsystem
 
 public:
 
-	UFUNCTION(BlueprintCallable)
-	void Init(TArray<TSubclassOf<class UFGItemDescriptor>> AllItems);
+	//UFUNCTION(BlueprintCallable)
+	//void Init(TArray<TSubclassOf<class UFGItemDescriptor>> AllItems);
 
-	UFUNCTION(BlueprintCallable)
-	TArray<TSubclassOf<UFGItemDescriptor>> GetAllItemsFiltered(const FString FilterString, const int32 ResutLimit = 200);
+	//UFUNCTION(BlueprintCallable)
+	//TArray<TSubclassOf<UFGItemDescriptor>> GetAllItemsFiltered(const FString FilterString, const int32 ResutLimit = 200);
 
-	UPROPERTY(BlueprintReadWrite)
-	TArray<TSubclassOf<class UFGItemDescriptor>> AllSlotItems;
+	//UPROPERTY(BlueprintReadWrite)
+	//TArray<TSubclassOf<class UFGItemDescriptor>> AllSlotItems;
 
-	UPROPERTY(BlueprintReadWrite)
-	TArray<TSubclassOf<class UFGItemDescriptor>> AllItems;
+	//UPROPERTY(BlueprintReadWrite)
+	//TArray<TSubclassOf<class UFGItemDescriptor>> AllItems;
 
-	UPROPERTY(BlueprintReadWrite)
-	UUserWidget *  ActivePopup;
+	//UPROPERTY(BlueprintReadWrite)
+	//UUserWidget *  ActivePopup;
 
 
-	UPROPERTY(BlueprintReadWrite)
-	UUserWidget* SelectedSlot;
+	//UPROPERTY(BlueprintReadWrite)
+	//UUserWidget* SelectedSlot;
 
 
 };
