@@ -57,9 +57,15 @@ or one you set up yourself with the mod.
 
 By default, sort buttons will be disabled when a filtered slot is detected.
 
-- Don't like this safety feature? Turn off the safety in the mod configs. Pick between:
-  - "Prevent" (default, disable sorting and show an explanation tooltip)
-    ![PreventMode](https://i.imgur.com/nFeXKR9.png)
-  - "Warn" (show a warning symbol and explanation tooltip, but still allow you to sort)
-    ![WarnMode](https://i.imgur.com/yIk9TaF.png)
-  - "Allow Anyways" (no warnings of any sort, allowed to sort)
+Don't like this safety feature? Turn off the safety in the mod configs. Pick between:
+
+- "Prevent" (default, disable sorting and show an explanation tooltip)
+
+![PreventMode](https://i.imgur.com/nFeXKR9.png)
+	
+
+- "Warn" (show a warning symbol and explanation tooltip, but still allow you to sort)
+
+![WarnMode](https://i.imgur.com/yIk9TaF.png)
+
+- "Allow Anyways" (no warnings of any sort, allowed to sort)
