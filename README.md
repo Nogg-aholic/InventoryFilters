@@ -32,7 +32,7 @@ _If you enjoy my work, please consider my [completely optional tip jar](https://
 - More!
 
 <video controls="" width="720" height="405">
-  <source src="https://cdn.discordapp.com/attachments/456109329456562187/1010260591887257600/FactoryGame-Win64-Shipping_2SVeYuIVmX.mp4" autoplay="false" controls="true" type="video/mp4">
+  <source src="https://github.com/Nogg-aholic/InventoryFilters/raw/master/ModpageResources/DemoVideo.mp4" autoplay="false" controls="true" type="video/mp4">
 </video>
 
 ![Tooltip](https://i.imgur.com/Tls6hrZ.png)
