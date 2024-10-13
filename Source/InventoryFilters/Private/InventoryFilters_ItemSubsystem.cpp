@@ -5,6 +5,7 @@
 #include "Resources/FGNoneDescriptor.h"
 #include "Resources/FGOverflowDescriptor.h"
 #include "Resources/FGWildCardDescriptor.h"
+#include "FGPlayerCustomizationDesc.h"
 #include "Creature/FGCreatureDescriptor.h"
 
 void AInventoryFilters_ItemSubsystem::RebuildItemRecords(const TArray<TSubclassOf<UFGItemDescriptor>> AllItemsIn) {
@@ -14,6 +15,7 @@ void AInventoryFilters_ItemSubsystem::RebuildItemRecords(const TArray<TSubclassO
 		if (UFGItemDescriptor::GetForm(candidate) == EResourceForm::RF_SOLID
 			&& !candidate->IsChildOf(UFGBuildDescriptor::StaticClass())
 			&& !candidate->IsChildOf(UFGFactoryCustomizationDescriptor::StaticClass())
+			&& !candidate->IsChildOf(UFGPlayerCustomizationDesc::StaticClass())
 			&& !candidate->IsChildOf(UFGNoneDescriptor::StaticClass())
 			&& !candidate->IsChildOf(UFGAnyUndefinedDescriptor::StaticClass())
 			&& !candidate->IsChildOf(UFGOverflowDescriptor::StaticClass())
