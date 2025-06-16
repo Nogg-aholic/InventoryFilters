@@ -1,5 +1,3 @@
-# Inventory Filters
-
 _Multiplayer compatible!_
 
 This mod allows you to set filters on any inventory slot
@@ -22,7 +20,7 @@ You can also, under some circumstances, edit existing filters that the base game
 
 This mod was started with [Drejn](https://ficsit.app/user/9i28T65xuTXzSs), who worked on the initial implementation!
 
-**Report Bugs here** -> [Nog & Robb's Mods Discord](https://discord.gg/nakafUdRfj)
+**Report Bugs on the GitHub** -> [GitHub Issues](https://github.com/Nogg-aholic/InventoryFilters/issues)
 
 _This mod is currently being maintained by `robb4` (Discord)._
 _If you enjoy my work, please consider donating to my [completely optional tip jar](https://ko-fi.com/robb4)._
@@ -39,9 +37,9 @@ _If you enjoy my work, please consider donating to my [completely optional tip j
 
 ## Known Bugs
 
-- Multiplayer clients must modify at least one filter in an inventory after joining a session before they can "see" the rest of that inventory's filters
+See the [GitHub Issues page](https://github.com/Nogg-aholic/InventoryFilters/issues).
 
 ## Regarding Sorting
 
 The base game's inventory sorting method is not consicous of slot filters.
-This mod relies upon the [Enhanced Sorting](https://ficsit.app/mod/EnhancedSorting) mod to remedy this.
+This mod relies upon the [Enhanced Sorting](https://ficsit.app/mod/EnhancedSorting) mod to remedy this, changing sorting logic.

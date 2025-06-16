@@ -7,6 +7,7 @@ public class InventoryFilters : ModuleRules
 	public InventoryFilters(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		CppStandard = CppStandardVersion.Cpp20;
 
 		// FactoryGame transitive dependencies
 		// Not all of these are required, but including the extra ones saves you from having to add them later.
@@ -34,10 +35,6 @@ public class InventoryFilters : ModuleRules
 			"RenderCore",
 			"CinematicCamera",
 			"Foliage",
-			//"Niagara",
-			//"EnhancedInput",
-			//"GameplayCameras",
-			//"TemplateSequence",
 			"NetCore",
 			"GameplayTags",
 			"Json", "JsonUtilities",
