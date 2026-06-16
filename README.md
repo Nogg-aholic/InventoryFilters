@@ -18,7 +18,7 @@ The mod uses the base game's slot filter mechanic,
 which means that your filters will persist after the mod is uninstalled.
 You can also, under some circumstances, edit existing filters that the base game uses, which could probably cause some problems, so be careful.
 
-This mod was started with [Drejn](https://ficsit.app/user/9i28T65xuTXzSs), who worked on the initial implementation!
+This mod was started with [Drejn](https://ficsit.app/user/9i28T65xuTXzSs), who worked on the initial implementation.
 
 **Report Bugs on the GitHub** -> [GitHub Issues](https://github.com/Nogg-aholic/InventoryFilters/issues)
 
@@ -27,13 +27,15 @@ _If you enjoy my work, please consider donating to my [completely optional tip j
 
 ## Uses
 
+- Control how many stacks are allowed in a storage container
+- Ensure certain items sort to the top of your player inventory
 - Restrict certain items from entering vehicles at dropoff stations
 - Keep your personal storage crates even more organized
 - Setting slot filters allows tighter control over [Inserters](https://ficsit.app/mod/C5jf5WDq7cZBtw) and how many items they are allowed to put into containers
 - Use Slot Filters to tell [Logistic Modules](https://ficsit.app/mod/AEr7ASfJHWpnhL) that a container is a valid item destination even when it has no items stored inside - useful for making "dropoff chests" or AWESOME sink feeders.
 - More!
 
-![Tooltip](https://i.imgur.com/Tls6hrZ.png)
+![Screenshot of tooltip search prompt in the player inventory](https://raw.githubusercontent.com/Nogg-aholic/InventoryFilters/refs/heads/main/ModpageResources/SearchPromptScreenshot.png)
 
 ## Known Bugs
 
