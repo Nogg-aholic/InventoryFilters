@@ -1,13 +1,14 @@
-_Multiplayer compatible!_
-
-This mod allows you to set filters on any inventory slot
-by clicking with the Right-Mouse Button on an empty slot.
+Allows you to assign filters to inventory slots by clicking with the Right-Mouse Button on an empty slot.
 A popup will appear with which you can configure an item to set as that slot's filter.
+A filtered slot is reserved to only hold that kind of item.
+A slot can only be filtered for one item at a time.
 
 <!-- markdownlint-disable MD033 -->
 <video controls="" width="720" height="405">
   <source src="https://github.com/Nogg-aholic/InventoryFilters/raw/master/ModpageResources/DemoVideo.mp4" autoplay="false" controls="true" type="video/mp4">
 </video>
+
+_Multiplayer compatible!_
 
 You can keep applying the same filter to multiple slots
 by right clicking them, or right click dragging, while the popup is open.
@@ -15,7 +16,8 @@ This works on basically all regular inventory slots -
 personal storage boxes, your player inventory, vehicles, etc.
 
 The mod uses the base game's slot filter mechanic,
-which means that your filters will persist after the mod is uninstalled.
+which means that your filters will persist after the mod is uninstalled,
+although they are not always clearly displayed.
 You can also, under some circumstances, edit existing filters that the base game uses, which could probably cause some problems, so be careful.
 
 This mod was started with [Drejn](https://ficsit.app/user/9i28T65xuTXzSs), who worked on the initial implementation.
@@ -35,7 +37,7 @@ _If you enjoy my work, please consider donating to my [completely optional tip j
 - Use Slot Filters to tell [Logistic Modules](https://ficsit.app/mod/AEr7ASfJHWpnhL) that a container is a valid item destination even when it has no items stored inside - useful for making "dropoff chests" or AWESOME sink feeders.
 - More!
 
-![Screenshot of tooltip search prompt in the player inventory](https://raw.githubusercontent.com/Nogg-aholic/InventoryFilters/refs/heads/main/ModpageResources/SearchPromptScreenshot.png)
+![Screenshot of tooltip search prompt in the player inventory](https://raw.githubusercontent.com/Nogg-aholic/InventoryFilters/refs/heads/master/ModpageResources/SearchPromptScreenshot.png)
 
 ## Known Bugs
 
@@ -43,5 +45,5 @@ See the [GitHub Issues page](https://github.com/Nogg-aholic/InventoryFilters/iss
 
 ## Regarding Sorting
 
-The base game's inventory sorting method is not consicous of slot filters.
+The base game's inventory sorting method is not conscious of slot filters.
 This mod relies upon the [Enhanced Sorting](https://ficsit.app/mod/EnhancedSorting) mod to remedy this, changing sorting logic.
